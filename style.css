@@ -1,0 +1,130 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+h1{
+text-align: center;
+
+}
+
+.choice-grid{
+width: 700px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+
+.choice-grid div{
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;    
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    border-color: #dcdcdc;
+    border-width: 1px;
+    border-style: solid;
+    width: 32.5%;
+}
+
+
+.checkbox{
+width: 20px;
+height: 20px;    
+}
+
+.result{
+
+display: flex;
+flex-grow: 1;
+flex-direction: column;
+justify-content: center;
+margin-top: 40px;
+margin-bottom: 20px;
+
+}
+.result h1{
+
+text-align: center;
+
+}
+.result p{
+
+    text-align:start;
+    margin: 18px 20px;
+    
+    
+    }
+
+    #reset-button{
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        background-color: #cecece;
+    }
+
+    #reset-button:hover{
+        cursor: pointer;
+        background-color: #e0e0e0;
+
+
+    }
+
+    
+    #reset-button p{
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+
+
+
+.selected_answer{
+    
+    background-color: #cfe3ff;
+
+}
+
+.not_selected_answer{
+    background-color: #f4f4f4;
+    
+    
+    }
+
+
+
+@media(max-width: 700px){
+
+html{
+
+width: 95%;
+
+}
+
+header div span{
+
+    display: none;
+
+}
+
+h1{
+
+text-align: center;
+
+}
+
+}
+
+
+@media(max-width: 500px){
+
+
+.choice-grid div{
+
+width: 49%;
+
+
+}
+
+
+}
